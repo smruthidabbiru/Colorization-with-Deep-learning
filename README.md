@@ -1,4 +1,4 @@
-# neural-colorization
+# Colorization with Deep Learning
 
 ![Result](https://cloud.githubusercontent.com/assets/4648756/20504440/4067e0f6-affc-11e6-88e7-26de6f5c1cce.jpg)
 
