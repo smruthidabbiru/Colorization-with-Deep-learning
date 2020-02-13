@@ -19,7 +19,7 @@ Install the following Python libraries:
 #Colorize an image with CPU
 python colorize.py -m model.pth -i input.jpg -o output.jpg --gpu -1
 
-model is G.pht
+model is G.pth
 
 # If you want to colorize all images in a folder with GPU
 python colorize.py -m model.pth -i input -o output --gpu 0
@@ -38,7 +38,7 @@ Note: Training is only supported with GPU (CUDA).
 ### Optional preparation
 
 It's highly recommended to train from my pretrained models. You can get both generator model and discriminator model from the GitHub Release:
-download D.pht from here: https://drive.google.com/open?id=1uW3jbIIqBSeWhkb44FtL4fT8Zl4dXt2U
+download D.pth from here: https://drive.google.com/open?id=1uW3jbIIqBSeWhkb44FtL4fT8Zl4dXt2U
 
 It's also recommended to have a test image (the script will generate a colorization for the test image you give at every checkpoint so you can see how the model works during training).
 
